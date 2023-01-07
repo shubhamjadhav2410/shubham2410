@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _011loopstatements {
 	public static void main(String[] args) {
-		noofDigit();
+		forloop2();
 	}
 
 	private static void forloop() {

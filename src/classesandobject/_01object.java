@@ -16,7 +16,7 @@ public class _01object {
 		squareBox.width=150;
 		squareBox.height=159;
 		
-		
+	System.out.println(squareBox.length);
 		
 		
 	}

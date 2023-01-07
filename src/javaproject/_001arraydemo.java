@@ -34,11 +34,23 @@ public static void arraybasic() {
 	num[4]=14;
 
 	for(int i=0;i<num.length; i++)
+	//for (int i:num)
 		
 	{
 		System.out.println(num[i]);
 	}
-
 }
-
+public static void arr1() {
+	int a[]= {10,12,11,13};//declaration, instantiation and initialization  
+	for (int i=0; i<a.length; i++){
+		System.out.println(a[i]);
+	}
+	}
+public static void arr2() {
+	
+int a[]= {11,12,13,14};
+for (int i:a) {
+	System.out.println(i);//printing array using for-each loop  
+}
+}
 }

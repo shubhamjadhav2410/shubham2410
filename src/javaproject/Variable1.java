@@ -1,7 +1,7 @@
 package javaproject;
 
 public class Variable1{
-String name;
+String name;  
 static String coursename;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ coursename="selenium";
 
 obj2.name="amit";
 obj1.name="rahul";
-coursename="java";
+
 System.out.println(obj1.name);
 System.out.println(coursename);
 System.out.println(obj2.name);
